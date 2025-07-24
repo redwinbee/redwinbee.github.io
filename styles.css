@@ -1,0 +1,30 @@
+body {
+    font-family: "Georgia", sans-serif;
+    font-size: medium;
+    background-color: #181818;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: indianred;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    background-color: #212121;
+    line-height: 2;
+}
