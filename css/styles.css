@@ -1,6 +1,13 @@
 body {
-    font-family: "Georgia", sans-serif;
-    font-size: medium;
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CASL" 0,
+        "CRSV" 0.5,
+        "MONO" 0;
     background-color: #181818;
     color: white;
 }
@@ -11,11 +18,11 @@ a {
 }
 
 .header {
+    font-size: xx-large;
+    font-weight: 800;
     display: flex;
     justify-content: center;
     align-content: center;
-    font-size: xx-large;
-    font-weight: bold;
 }
 
 .container {
